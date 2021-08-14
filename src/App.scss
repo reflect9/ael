@@ -1,0 +1,227 @@
+$pinkyred: #ff385c;
+
+.App {
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  width:100%;
+  margin:auto;
+  color:rgb(72,72,72);
+}
+
+a {
+  text-decoration: none;
+  color:$pinkyred !important;
+}
+
+
+// .App-logo {
+//   height: 40vmin;
+//   pointer-events: none;
+// }
+
+// @media (prefers-reduced-motion: no-preference) {
+//   .App-logo {
+//     animation: App-logo-spin infinite 20s linear;
+//   }
+// }
+
+.App-header {
+  position:fixed;
+  top:0; left:0;
+  z-index:1;
+  background-color: white;
+  height:60px;
+  width:100%;
+  box-shadow:0px 5px 14px rgba(0,0,0,0.08);
+  flex-direction: row;
+  align-items:center;
+  .App-header-content {
+    // max-width:1000px; // Commented out to put the emblem left side
+    height:100%;
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    // border-bottom:1px solid #eee;
+    font-size: 14px;
+    color: #333;  
+    .lab_title {
+      margin-left:20px;  
+    }
+    .nav {
+      ul {
+        list-style-type: none;
+        margin:0; padding:0;
+      }
+      li {
+        display:inline-block;
+        margin-right:20px;
+        cursor:pointer;
+        border-radius:24px;
+        background:white;
+        padding:8px 16px;
+      }
+      li:hover {
+        background:#f8f8f8;
+      }
+      .active {
+        color:$pinkyred;
+      }
+    }
+  }
+}
+
+.content {
+  max-width:1000px;
+  box-sizing: border-box;
+  margin:80px auto;
+  text-align:left;
+  // background:#fafafa;
+  border-radius:20px;
+  padding:20px;
+  section {
+    margin-bottom:60px;
+  }
+  h2 {
+    margin:0;
+    margin-left:-20px;
+    padding-left:12px;
+    border-left:8px solid $pinkyred;
+    font-size:18px;
+    font-weight:800;
+  }
+  h3 {
+    margin-top:32px;
+    font-size:0.9em;
+    // padding-left:1em;
+    color:#aaa;
+    em{
+      color:$pinkyred;
+      font-style:normal;
+    }
+  }
+  p {
+    font-size:0.9em;
+    line-height:1.5em;
+    padding-right:10em;
+  }
+  p.indented {
+    margin-top:-5px;
+    padding-left:1em;
+  }
+  
+}
+
+ul.people_list {
+  margin:20px; padding:0;
+  li {
+    list-style-type:none;
+    display:inline-block;
+    margin-bottom:20px; margin-right:40px;
+    width:120px; 
+    text-align:center;
+    vertical-align: top;
+    font-size:13px;
+    img {
+      width:100px;  height:100px;
+      object-fit:cover;
+      border-radius:100% !important;   
+      background-color:#ddd; 
+      filter:grayscale(100%);
+    }
+    img.noun_person {
+      object-fit:contain;
+      object-position:50% 20px;
+      // color:white;
+      filter:invert(1);
+      opacity:0.25;
+    }
+    div.name {
+      margin-top:6px;
+      font-size:14px;
+      font-weight:600;
+    }
+    div.role {
+      font-size:13px;
+    }
+    div.email {
+      font-size:11px;
+    }
+    div.website {
+      a {
+        color:#aaa
+      }
+    }
+  }
+}
+
+
+ul.publications {
+  margin:20px 0; padding:0;
+  
+  li {
+    list-style-type:none;
+    display:block;
+    font-size:15px;
+    margin-bottom:14px;
+    .bib-item {
+      .title {
+        font-weight:600;
+        .tag {
+          display: inline-block;
+          border-radius: 4px;
+          vertical-align: top;
+          border: 1px solid #2197ce;
+          color: #2197ce;
+          font-size: 10px;
+          font-weight: 400;
+          margin-left: 12px;
+          padding: 1px 3px;
+        }
+      }
+      .authors {
+        font-size:0.8em;
+      }
+      .description {
+        font-size:0.8em;
+      }
+    }
+  }
+}
+
+.project {
+  margin-top:16px;
+  line-height:1.4em;
+  .image {
+    width:100%;
+    img {
+      width:100%;
+    }
+  }
+  .title {
+    font-weight:600;
+    font-size:20px;
+  }
+  .description {
+    margin-top:12px;
+    font-size:14px;
+  }
+  .participants {
+    margin-top:4px;
+    font-size:12px;
+    color:#aaa;
+  }
+  .collaboration {
+    font-size:12px;
+  }
+}
+
+// @keyframes App-logo-spin {
+//   from {
+//     transform: rotate(0deg);
+//   }
+//   to {
+//     transform: rotate(360deg);
+//   }
+// }
