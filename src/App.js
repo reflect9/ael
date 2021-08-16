@@ -77,20 +77,20 @@ function App() {
             Digital transformation is fundamentally changing how products and services operate and deliver value to people. Data now has become the lens to understand people, and the oil that runs AI-powered machines. AEL's primary goal is to create innovative yet practical solutions for challenging problems. To achieve the goal, we leverage individual researchers' creative and constructive mindsets for finding insights from data, and building prototypes with data and AI technologies. 
           </p>
 
-          <h3><em>System-oriented Design</em> over Human-Centered Design</h3>
+          <h3><em>Network-oriented Design</em> over Human-Centered Design</h3>
           <p className="indented">
-            While HCD has been a mainstream design agenda for several decades, the world as a giant network of people, businesses, and other stakeholders demands a system-oriented approach. For instance, we may design a system that does not involve any human users, or carefully negotiates the level of discomfort and stress that people experience. 
+            The world is evolving into a giant network of human/non-human stakeholders. It gets harder and harder for designers to satisfy individual end-users. While holding the basic principles of HCD, we treat end-users with the same level of importance as other nodes such as other user groups, businesses, and even AI models. That being said, we try to mediate interests and tensions within the network rather than to satisfy a specific target users. 
           </p>
 
-          <h3><em>Minimal Viable Products</em> over High Fidelity Prototypes</h3>
+          <h3><em>Prototype for Iterative Learning</em> over Prototype for Demonstration</h3>
           <p className="indented">
-            We build a prototype to enlighten ourselves and to step up the next level of design iteration rather than persuading stakeholders with a high-fidelity mock-up.  
+            We build prototypes to test hypothesis, to enlighten ourselves and to step up the next cycle of iterations rather than showing off with high-fidelity prototypes.
           </p>
 
 
           <h3><em>Problem Solving</em> over Problem Discovery</h3>
           <p className="indented">
-            For the last couple decades designers have been very successful at finding interesting problems to solve. However, the digital transformation and AI technology offer unprecedented tools to solve boring (yet challenging) problems. Thus we focus more on innovative solutions rather than problems. 
+            For the last couple decades designers have been very successful at finding interesting problems to solve. However, the digital transformation and AI technology offer unprecedented tools to get low-hanging fruits (i.e. solving boring yet painful problems). For instance, using AI to remove a single step from daily tasks is as interesting as spotting a novel problem that no one thought.
           </p>
 {/* 
           <h3><em>Media-agnostic</em> over Media-specific</h3>
@@ -127,14 +127,14 @@ function App() {
           <h2>Who We Are</h2>
           <ul className="people_list">
             <li>
-              <a href="http://www.takyeonlee.com" target='_blank'><img src={tak_image} /></a>
+              <a href="https://www.takyeonlee.com" target='_blank'><img src={tak_image} /></a>
               <div className="name">Tak Yeon, Lee</div>
               <div className="role">Assistant Professor</div>
               <div className="email">
                 takyeonlee@kaist.ac.kr
               </div>
               <div className="website">
-                <a href="www.takyeonlee.com">website</a>
+                <a href="https://www.takyeonlee.com">website</a>
               </div>
             </li>
             <li>
