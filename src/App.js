@@ -6,6 +6,7 @@ import joohyoungpark_image from "./images/member_photo/joohyoungpark.jpeg";
 // import noun_person from "./images/noun_person.png";
 import noun_person_svg from "./images/noun_Human_823373.svg";
 import image_ids_all from "./images/project_photo/ids-all.png";
+import maehwasoo from "./images/project_photo/maehwasoo.png";
 // import SimpleImageSlider from "react-simple-image-slider";
 
 import React, { Component } from 'react';
@@ -67,9 +68,9 @@ function App() {
 
         {/* Section 1 Who We Are */}
         <section>
-          <h2>Lab's Vision</h2>
+          <h2>Vision</h2>
           <p>
-            Welcome to the AI Experience Lab (AEL) founded by prof. <a href="http://www.takyeonlee.com" target='_blank'>Tak Yeon Lee</a> in 2021. The following manifesto guides us to design innovative yet practical solutions using data and AI technology. 
+            Welcome to the AI Experience Lab (AEL) founded by prof. <a href="http://www.takyeonlee.com" target='_blank'>Tak Yeon Lee</a> in 2021. We create innovation solutions for real-world problems by integrating the power of <em>design</em>, <em>data</em>, and <em>AI-technology</em>. The following manifesto tells about our approach in detail.
           </p>
 
           <h3><em>Data-Centric Design</em> over Traditional Industrial Design</h3>
@@ -147,7 +148,7 @@ function App() {
             </li>
             <li>
               <img src={joohyoungpark_image} />
-              <div className="name">JooHyoung, Park</div>
+              <div className="name">Juhyeong, Park</div>
               <div className="role">Master Student</div>
               <div className="email">
                 wngud913@kaist.ac.kr
@@ -168,7 +169,7 @@ function App() {
         <section>
           <h2>How to Join</h2>
           <p>
-          We are always looking for students interested in AI-infused products and data-driven design. If you're interested in working with me, please read below and send me an email (reflect9 at gmail dot com).
+          We are always looking for students interested in AI-infused products and data-driven design. If you're interested in working with me, please read below and send me an email (takyeonlee at kaist dot ac dot kr).
           </p>
           <h3>Ph.D. student</h3>
           <p>
@@ -203,33 +204,70 @@ function App() {
         <section>
           <h2>Projects</h2>
           <div className="project">
-            {/* <div className="carousel">
-              <SimpleImageSlider
-                width={400}
-                height={250}
-                images={images_ids}
-                slideDuration={0.1}
-                showBullets={true}
-                showNavs={true}
-                startIndex={0}
-              />
-            </div> */}
             <div className="title">
                 AI-supported Tools for Authoring Immersive Data Storytelling
             </div>
-            
-            
-            <div className="description">
-              This project aims to build an AI-assisted authoring tool of immersive data storytelling (IDS). Our tool focuses on maximizing the following benefits of IDS: (1) Meaningful and engaging composition of charts in 3D space, (2) Embodied interaction between presenter and charts, (3) Enabling collaborative data exploration in a virtual space. Our tool makes IDS authoring easier and more effective by automating low-level specifications and recommending semantically meaningful chart arrangements. 
+            <div className="contributors">
+              <b>Seon Gyeom Kim</b>, and <b>Tak Yeon lee</b>. 
+              <span className="sponsor"> Sponsored by <b>Adobe Research, San Jose, USA</b></span>
             </div>
-            <div className="image" style={{margin:"20px 0", width:"90%"}}>
+            <div className="time">
+              March 2021 - 
+            </div>
+            <div className="description">
+              This project aims to build an AI-assisted  authoring tool of immersive data storytelling (IDS). Our tool focuses on maximizing the following benefits of IDS: (1) Meaningful and engaging composition of charts in 3D space, (2) Embodied interaction between presenter and charts, (3) Enabling collaborative data exploration in a virtual space. Our tool makes IDS authoring easier and more effective by automating low-level specifications and recommending semantically meaningful chart arrangements. 
+            </div>
+            <div className="image" style={{margin:"20px auto", width:"80%",}}>
               <img src={image_ids_all}/>
             </div>
-            <div className="participants">
-                Seon Gyeom Kim, Tak Yeon lee (Sponsored by Adobe Research)
+            
+          </div>
+
+          <div className="project">
+            <div className="title">
+                Data-Driven Discovery for Design Opportunities in the Context of Consumer Electronics
             </div>
-            
-            
+            <div className="contributors">
+              <b>Tak Yeon lee</b>. 
+              <span className="sponsor"> Sponsored by <b>LG Electronics, South Korea</b></span>
+            </div>
+            <div className="time">
+              March 2021 - September 2021
+            </div>
+            <div className="description">
+              Data-driven discovery is a global trend for any business, and 
+              consumer electronics is not an exception. This project aims to design, implement, and deliver 
+              an interactive dashboard for in-house designers. Designers can use the dashboard to understand
+              their customers' lifestyle and preferences on consumer electronics.  
+              This is a six-month consulting project that prof Tak Yeon Lee did with LG Electronics. 
+            </div>
+          </div>
+
+          <div className="project">
+            <div className="title">
+                MaeHwaSoo - Interactive Curriculum Explorer for College Students
+            </div>
+            <div className="contributors">
+              <b>Minwoo Kim</b>. Guided by <b>Seok-Hyoung Bae</b>, <b>Tak Yeon lee</b>. 
+              <span className="sponsor"> Sponsored by <b>AEL</b></span>
+            </div>
+            <div className="time">
+              June 2021 - 
+              
+            </div>
+            <div className="description">
+              College students regularly spend time on checking their progress toward graduation. 
+              MaeHwaSoo is a web-based interactive platform for students to quickly check 
+              whether they are ready to graduate, and how many / what classes they need to take until graduation.
+              This project was originally initiated by a undergraduate student Minwoo Kim, and now became an open-source 
+              project maintained and improved by other contributors in KAIST. 
+              <span className="link">
+                <a href="https://uce-kaist-preview.herokuapp.com/" target="_blank">Visit the site</a>
+              </span>
+            </div>
+            <div className="image" style={{margin:"20px auto", width:"80%",}}>
+              <img src={maehwasoo}/>
+            </div>
           </div>
         </section>
 
@@ -238,6 +276,23 @@ function App() {
           <h2>Publications</h2>
           <h3>2021</h3>
           <ul className="publications">
+            
+            <li>
+              <div className="bib-item">
+                <div className="title">
+                  An Evaluation-Focused Framework for Visualization Recommendation Algorithms
+                </div>
+                <div className="authors">
+                Zehua Zeng, Phoebe Moh, Fan Du, Jane Hoffswell, <em>Tak Yeon Lee</em>, Sana Malik, Eunyee Koh, Leilani Battle
+                </div>
+                <div className="description">
+                Proceedings of the 32nd IEEE VIS 2021, Visualization Conference
+                <span class="acknowledgement">Honorable Mention</span>
+                <a className="link" target="_blank" href="https://homes.cs.washington.edu/~leibatt/static/papers/zeng2021evaluation.pdf">[PDF]</a>
+                </div>
+              </div>
+            </li>
+
             <li>
               <div className="bib-item">
                 <div className="title">
@@ -248,10 +303,43 @@ function App() {
                 Xin Qian, Eunyee Koh, Fan Du, Sungchul Kim, Joel Chan, Ryan A Rossi, Sana Malik, <em>Tak Yeon Lee</em>
                 </div>
                 <div className="description">
-                Proceedings of the Web Conference 2021
+                Proceedings of the Web Conference 2021 (WWW '21) Association for Computing Machinery, New York, NY, USA, 2792–2804. DOI:https://doi.org/10.1145/3442381.3449923
+                <a className="link" target="_blank" href="https://terpconnect.umd.edu/~xinq/Figure_captioning_WWW21.pdf">[PDF]</a>
                 </div>
               </div>
             </li>
+
+            <li>
+              <div className="bib-item">
+                <div className="title">
+                  EXACTA: Explainable Column Annotation
+                </div>
+                <div className="authors">
+                Yikun Xian, Handong Zhao, <em>Tak Yeon Lee</em>, Sungchul Kim, Ryan Rossi, Zuohui Fu, Gerard de Melo and S. Muthukrishnan
+                </div>
+                <div className="description">
+                KDD '21: Proceedings of the 19th ACM SIGKDD international conference on Knowledge discovery and data mining (ACM) Association for Computing Machinery, New York, NY, USA, 2792–2804. 
+                <a className="link" target="_blank" href="https://orcax.github.io/publications/">[PDF]</a>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div className="bib-item">
+                <div className="title">
+                  Learning to Recommend Visualizations from Data
+                </div>
+                <div className="authors">
+                Xin Qian, Ryan Rossi, Fan Du, Sungchul Kim, Eunyee Koh, Sana Malik, <em>Tak Yeon Lee</em>, and Joel Chan
+                </div>
+                <div className="description">
+                KDD '21: Proceedings of the 19th ACM SIGKDD international conference on Knowledge discovery and data mining (ACM) Association for Computing Machinery, New York, NY, USA, 2792–2804. 
+                <a className="link" target="_blank" href="https://www.terpconnect.umd.edu/~xinq/Learning_to_Recommend_Vis_from_Data_KDD21.pdf">[PDF]</a>
+                </div>
+              </div>
+            </li>
+
+            
 
             <li>
               <div className="bib-item">
@@ -273,7 +361,7 @@ function App() {
                   Personalized Visualization Recommendation
                 </div>
                 <div className="authors">
-                Xin Qian, Ryan A Rossi, Fan Du, Sungchul Kim, Eunyee Koh, Sana Malik, Tak Yeon Lee, Nesreen K Ahmed
+                Xin Qian, Ryan A Rossi, Fan Du, Sungchul Kim, Eunyee Koh, Sana Malik, <em>Tak Yeon Lee</em>, Nesreen K Ahmed
                 </div>
                 <div className="description">
                 arXiv preprint arXiv:2102.06343

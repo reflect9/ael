@@ -105,6 +105,10 @@ a {
     font-size:0.9em;
     line-height:1.5em;
     padding-right:10em;
+    em {
+      font-weight:700;
+      font-style:normal;
+    }
   }
   p.indented {
     margin-top:-5px;
@@ -181,10 +185,29 @@ ul.publications {
         }
       }
       .authors {
-        font-size:0.8em;
+        line-height:1.5em;
+        font-size:0.9em;
+        em {
+          font-weight:600;
+          font-style:normal;
+        }
       }
       .description {
-        font-size:0.8em;
+        font-size:0.9em;
+        line-height:1.6em;
+      }
+      span.acknowledgement {
+        margin-left:10px; 
+        margin-right:10px;
+        font-weight:600;
+        color:$pinkyred;
+      }
+      a.link {
+        margin-left:4px;
+        color:$pinkyred;
+        font-size:0.9em;
+        display: inline-block;
+        vertical-align: bottom;
       }
     }
   }
@@ -192,6 +215,7 @@ ul.publications {
 
 .project {
   margin-top:16px;
+  margin-bottom:40px;
   line-height:1.4em;
   .image {
     width:100%;
@@ -201,11 +225,26 @@ ul.publications {
   }
   .title {
     font-weight:600;
-    font-size:20px;
+    font-size:21px;
+  }
+  .contributors {
+    font-size:13px;
+    margin-top:4px;
+    .sponsor {
+      color:$pinkyred;
+    }
+  }
+  .time {
+    font-size:13px;
+    font-style:italic;
   }
   .description {
-    margin-top:12px;
+    margin-top:4px;
     font-size:14px;
+    span.link {
+      margin-left:4px;
+    }
+  
   }
   .participants {
     margin-top:4px;
