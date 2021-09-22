@@ -262,7 +262,7 @@ function App() {
               This project was originally initiated by a undergraduate student Minwoo Kim, and now became an open-source 
               project maintained and improved by other contributors in KAIST. 
               <span className="link">
-                <a href="https://uce-kaist-preview.herokuapp.com/" target="_blank">Visit the site</a>
+                <a href="https://graduate-kaist.herokuapp.com/" target="_blank">Visit the site</a>
               </span>
             </div>
             <div className="image" style={{margin:"20px auto", width:"80%",}}>
