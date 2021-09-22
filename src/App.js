@@ -167,7 +167,7 @@ function App() {
 
         {/* Section. What We Do */}
         <section>
-          <h2>How to Join</h2>
+          <h2>How to Join </h2>
           <p>
           We are always looking for students interested in AI-infused products and data-driven design. If you're interested in working with me, please read below and send me an email (takyeonlee at kaist dot ac dot kr).
           </p>
