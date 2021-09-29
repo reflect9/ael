@@ -2,10 +2,12 @@
 import tak_image from "./images/member_photo/tak.jpg";
 import seongyeomkim_image from "./images/member_photo/seongyeomkim.jpg";
 import jeehunchoi_image from "./images/member_photo/jeehunchoi.jpg";
+import donggunlee_image from "./images/member_photo/donggunlee.jpeg";
 import joohyoungpark_image from "./images/member_photo/joohyoungpark.jpeg";
 // import noun_person from "./images/noun_person.png";
 import noun_person_svg from "./images/noun_Human_823373.svg";
 import image_ids_all from "./images/project_photo/ids-all.png";
+
 import maehwasoo from "./images/project_photo/maehwasoo.png";
 // import SimpleImageSlider from "react-simple-image-slider";
 
@@ -160,6 +162,14 @@ function App() {
               <div className="role">Undergraduate Researcher</div>
               <div className="email">
                 jeehun@kaist.ac.kr
+              </div>
+            </li>
+            <li>
+              <img src={donggunlee_image} />
+              <div className="name">Dong Gun, Lee</div>
+              <div className="role">Undergraduate Researcher</div>
+              <div className="email">
+                jlee4330@kaist.ac.kr
               </div>
             </li>
           </ul>
