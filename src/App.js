@@ -127,7 +127,7 @@ function App() {
         
         {/* Section. What We Do */}
         <section>
-          <h2>Who We Are</h2>
+          <h2>Who We Are!</h2>
           <ul className="people_list">
             <li>
               <a href="https://www.takyeonlee.com" target='_blank'><img src={tak_image} /></a>
