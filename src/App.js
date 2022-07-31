@@ -1,14 +1,11 @@
 // import logo from './logo.svg';
-import tak_image from "./images/member_photo/tak.jpg";
-import seongyeomkim_image from "./images/member_photo/seongyeomkim.jpg";
-import jeehunchoi_image from "./images/member_photo/jeehunchoi.jpg";
-import donggunlee_image from "./images/member_photo/donggunlee.jpeg";
-import joohyoungpark_image from "./images/member_photo/joohyoungpark.jpeg";
+import Vision from "./Vision.jsx";
+import People from "./People.jsx";
+import Courses from "./Courses.jsx";
+import Projects from "./Projects.jsx";
+
 // import noun_person from "./images/noun_person.png";
 import noun_person_svg from "./images/noun_Human_823373.svg";
-import image_ids_all from "./images/project_photo/ids-all.png";
-
-import maehwasoo from "./images/project_photo/maehwasoo.png";
 // import SimpleImageSlider from "react-simple-image-slider";
 
 import React, { Component } from 'react';
@@ -68,112 +65,11 @@ function App() {
           <Route path="/research" component={Research}/>
           <Route path="/People" component={People}/> */}
 
-        {/* Section 1 Who We Are */}
-        <section>
-          <h2>Vision</h2>
-          <p>
-            Welcome to the AI Experience Lab (AEL) founded by prof. <a href="http://www.takyeonlee.com" target='_blank'>Tak Yeon Lee</a> in 2021. We create innovation solutions for real-world problems by integrating the power of <em>design</em>, <em>data</em>, and <em>AI-technology</em>. The following manifesto tells about our approach in detail.
-          </p>
-
-          <h3><em>Data-Centric Design</em> over Traditional Industrial Design</h3>
-          <p className="indented">
-            Digital transformation is fundamentally changing how products and services operate and deliver value to people. Data now has become the lens to understand people, and the oil that runs AI-powered machines. AEL's primary goal is to create innovative yet practical solutions for challenging problems. To achieve the goal, we leverage individual researchers' creative and constructive mindsets for finding insights from data, and building prototypes with data and AI technologies. 
-          </p>
-
-          <h3><em>Network-oriented Design</em> over Human-Centered Design</h3>
-          <p className="indented">
-            The world is evolving into a giant network of human/non-human stakeholders. It gets harder and harder for designers to satisfy individual end-users. While holding the basic principles of HCD, we treat end-users with the same level of importance as other nodes such as other user groups, businesses, and even AI models. That being said, we try to mediate interests and tensions within the network rather than to satisfy a specific target users. 
-          </p>
-
-          <h3><em>Prototype for Iterative Learning</em> over Prototype for Demonstration</h3>
-          <p className="indented">
-            We build prototypes to test hypothesis, to enlighten ourselves and to step up the next cycle of iterations rather than showing off with high-fidelity prototypes.
-          </p>
-
-
-          <h3><em>Problem Solving</em> over Problem Discovery</h3>
-          <p className="indented">
-            For the last couple decades designers have been very successful at finding interesting problems to solve. However, the digital transformation and AI technology offer unprecedented tools to get low-hanging fruits (i.e. solving boring yet painful problems). For instance, using AI to remove a single step from daily tasks is as interesting as spotting a novel problem that no one thought.
-          </p>
-{/* 
-          <h3><em>Media-agnostic</em> over Media-specific</h3>
-          <p className="indented">
-            When people ask "what do you design?" we carefully refuse to give a direct answer, because we do not limit ourselves within a specific medium such as user interface, service, or consumer products. Instead we focus on a specific type of problem (e.g. data-driven design issues) that may appear in many different domains. 
-          </p> */}
-
-          
-
-{/* 
-
-          <h3>1. Explore design opportunities enabled by AI and data</h3>
-          <p className="indented">
-            AEL's primary goal is to create innovative yet practical solutions for challenging problems. To achieve the goal, we leverage individual researchers' creative and constructive mindsets for finding insights from data, and building prototypes with data and AI technologies. 
-          </p>
-          
-          <h3>Redefine designer's role and responsibility in the age of digital transformation</h3>
-          <p>
-            In the midst of digital transformation, we see lots of opportunities and problems are only accessible via data. Failing to use data properly may end up creating products that are useful for only a fraction of people, overlooking critical signals of unhappy users, and failing in business. Our research raises critical questions about what designers should learn and do in the age of digital transformation.
-          </p>
-
-          <h3>Back to <em>How</em> from <em>What to design</em></h3>
-          <p>
-            For the last couple decades designers have been very successful at finding novel problems. While the approach is still valid, the digital transformation and AI technology provide unprecedented tools to solve boring (yet challenging) problems. In that line of thought, we are interested in solving an existing (or even boring) problem in a novel way. 
-          </p> */}
-
-
-
-        </section>
         
+        {Vision}
         
-        {/* Section. What We Do */}
-        <section>
-          <h2>Who We Are!</h2>
-          <ul className="people_list">
-            <li>
-              <a href="https://www.takyeonlee.com" target='_blank'><img src={tak_image} /></a>
-              <div className="name">Tak Yeon, Lee</div>
-              <div className="role">Assistant Professor</div>
-              <div className="email">
-                takyeonlee@kaist.ac.kr
-              </div>
-              <div className="website">
-                <a href="https://www.takyeonlee.com">website</a>
-              </div>
-            </li>
-            <li>
-              <img src={seongyeomkim_image} />
-              <div className="name">Seon Gyeom, Kim</div>
-              <div className="role">Master Student</div>
-              <div className="email">
-                ksg_0320@kaist.ac.kr
-              </div>
-            </li>
-            <li>
-              <img src={joohyoungpark_image} />
-              <div className="name">Juhyeong, Park</div>
-              <div className="role">Master Student</div>
-              <div className="email">
-                wngud913@kaist.ac.kr
-              </div>
-            </li>
-            <li>
-              <img src={jeehunchoi_image} />
-              <div className="name">Jee Hun, Choi</div>
-              <div className="role">Undergraduate Researcher</div>
-              <div className="email">
-                jeehun@kaist.ac.kr
-              </div>
-            </li>
-            <li>
-              <img src={donggunlee_image} />
-              <div className="name">Dong Gun, Lee</div>
-              <div className="role">Undergraduate Researcher</div>
-              <div className="email">
-                jlee4330@kaist.ac.kr
-              </div>
-            </li>
-          </ul>
-        </section>
+        {People}
+
 
         {/* Section. What We Do */}
         <section>
@@ -208,82 +104,34 @@ function App() {
           
         </section>
 
+        {Courses}
 
 
-        {/* Section. Projects */}
-        <section>
-          <h2>Projects</h2>
-          <div className="project">
-            <div className="title">
-                AI-supported Tools for Authoring Immersive Data Storytelling
-            </div>
-            <div className="contributors">
-              <b>Seon Gyeom Kim</b>, and <b>Tak Yeon lee</b>. 
-              <span className="sponsor"> Sponsored by <b>Adobe Research, San Jose, USA</b></span>
-            </div>
-            <div className="time">
-              March 2021 - 
-            </div>
-            <div className="description">
-              This project aims to build an AI-assisted  authoring tool of immersive data storytelling (IDS). Our tool focuses on maximizing the following benefits of IDS: (1) Meaningful and engaging composition of charts in 3D space, (2) Embodied interaction between presenter and charts, (3) Enabling collaborative data exploration in a virtual space. Our tool makes IDS authoring easier and more effective by automating low-level specifications and recommending semantically meaningful chart arrangements. 
-            </div>
-            <div className="image" style={{margin:"20px auto", width:"80%",}}>
-              <img src={image_ids_all}/>
-            </div>
-            
-          </div>
-
-          <div className="project">
-            <div className="title">
-                Data-Driven Discovery for Design Opportunities in the Context of Consumer Electronics
-            </div>
-            <div className="contributors">
-              <b>Tak Yeon lee</b>. 
-              <span className="sponsor"> Sponsored by <b>LG Electronics, South Korea</b></span>
-            </div>
-            <div className="time">
-              March 2021 - September 2021
-            </div>
-            <div className="description">
-              Data-driven discovery is a global trend for any business, and 
-              consumer electronics is not an exception. This project aims to design, implement, and deliver 
-              an interactive dashboard for in-house designers. Designers can use the dashboard to understand
-              their customers' lifestyle and preferences on consumer electronics.  
-              This is a six-month consulting project that prof Tak Yeon Lee did with LG Electronics. 
-            </div>
-          </div>
-
-          <div className="project">
-            <div className="title">
-                MaeHwaSoo - Interactive Curriculum Explorer for College Students
-            </div>
-            <div className="contributors">
-              <b>Minwoo Kim</b>. Guided by <b>Seok-Hyoung Bae</b>, <b>Tak Yeon lee</b>. 
-              <span className="sponsor"> Sponsored by <b>AEL</b></span>
-            </div>
-            <div className="time">
-              June 2021 - 
-              
-            </div>
-            <div className="description">
-              College students regularly spend time on checking their progress toward graduation. 
-              MaeHwaSoo is a web-based interactive platform for students to quickly check 
-              whether they are ready to graduate, and how many / what classes they need to take until graduation.
-              This project was originally initiated by a undergraduate student Minwoo Kim, and now became an open-source 
-              project maintained and improved by other contributors in KAIST. 
-              <span className="link">
-                <a href="https://graduate-kaist.herokuapp.com/" target="_blank">Visit the site</a>
-              </span>
-            </div>
-            <div className="image" style={{margin:"20px auto", width:"80%",}}>
-              <img src={maehwasoo}/>
-            </div>
-          </div>
-        </section>
+        {Projects}
+        
 
         {/* Section. Publications */}
         <section>
           <h2>Publications</h2>
+          <h3>2022</h3>
+          <ul className="publications">
+            <li>
+              <div className="bib-item">
+                <div className="title">
+                Virfie: Virtual Group Selfie Station for Remote Togetherness
+                </div>
+                <div className="authors">
+                Hyerin Im, Taewan Kim, Eunhee Jung, Bonhee Ku, Seungho Baek, and Tak Yeon Lee
+                </div>
+                <div className="description">
+                In Extended Abstracts of the 2022 CHI Conference on Human Factors in Computing Systems (CHI EA '22)
+                <a className="link" target="_blank" href="https://dl.acm.org/doi/abs/10.1145/3491101.3519767">[ACM]</a>
+                </div>
+              </div>
+            </li>
+
+
+          </ul>
           <h3>2021</h3>
           <ul className="publications">
             
@@ -385,7 +233,10 @@ function App() {
         </section>
 
       </div>
+
     </div>
+
+    
     // </HashRouter>
   );
 }
