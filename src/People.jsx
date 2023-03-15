@@ -6,6 +6,7 @@ import joohyoungpark_image from "./images/member_photo/joohyoungpark.jpeg";
 import yusangyun_image from "./images/member_photo/yusangyun.jpg";
 import byoungjaekim_image from "./images/member_photo/byoungjaekim.jpg";
 import minsunkim_image from "./images/member_photo/minsunkim.jpg";
+import jinjeong_image from "./images/member_photo/jinjeong.jpg";
 
 const People = (
         <section>
@@ -60,6 +61,14 @@ const People = (
               <div className="role">Master Student</div>
               <div className="email">
                 9909cindy@kaist.ac.kr 
+              </div>
+            </li>
+            <li>
+              <img src={jinjeong_image} />
+              <div className="name">Jin, Jeong</div>
+              <div className="role">Master Student</div>
+              <div className="email">
+                tasa2000@kaist.ac.kr
               </div>
             </li>
             
