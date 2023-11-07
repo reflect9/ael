@@ -9,11 +9,11 @@ import minsunkim_image from "./images/member_photo/minsunkim.jpg";
 import jinjeong_image from "./images/member_photo/jinjeong.jpg";
 
 const People = (
-        <section>
+        <section id="people">
           <h2>Who We Are</h2>
           <ul className="people_list">
             <li>
-              <a href="https://www.takyeonlee.com" target='_blank'><img src={tak_image} /></a>
+              <a href="https://www.takyeonlee.com" target='_blank' rel="noreferrer"><img src={tak_image} /></a>
               <div className="name">Tak Yeon, Lee</div>
               <div className="role">Assistant Professor</div>
               <div className="email">

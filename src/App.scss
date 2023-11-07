@@ -10,7 +10,7 @@ $pinkyred: #ff385c;
 
 a {
   text-decoration: none;
-  color:$pinkyred !important;
+  color:$pinkyred;
 }
 
 
@@ -48,28 +48,59 @@ a {
     font-weight:600;
     color: #333;  
     .lab_title {
+      flex:0 1 auto;
       margin-left:20px;  
-    }
-    .nav {
-      ul {
-        list-style-type: none;
-        margin:0; padding:0;
+      .light {
+        font-weight:300;
       }
-      li {
+    }
+    @media screen and (max-width: 999px) {
+      .nav { display:none; }
+    }
+    @media screen and (min-width: 1000px) {
+      .nav {
+        flex:1 0 auto;
+        ul {
+          display:inline-block;
+          list-style-type: none;
+          margin:0; padding:0;
+          font-size:16px;
+          font-weight:300;
+        }
+        li {
+          display:inline-block;
+          margin-right:20px;
+          cursor:pointer;
+          border-radius:24px;
+          background:white;
+          padding:8px 16px;
+          
+          button {
+            color:#666;
+            border:none;
+            background: none;
+          }
+        }
+        li:hover {
+          button {
+            text-decoration: underline;
+            
+          }
+        }
+      }
+    }
+    .right {
+      flex:0 1 auto;
+      img {
         display:inline-block;
-        margin-right:20px;
-        cursor:pointer;
-        border-radius:24px;
-        background:white;
-        padding:8px 16px;
-      }
-      li:hover {
-        background:#f8f8f8;
-      }
-      .active {
-        color:$pinkyred;
+        height:24px;
+        margin-right:8px; margin-top:0px;
+        opacity:0.5;
+        vertical-align:middle;
       }
     }
+    
+    
   }
 }
 
@@ -80,9 +111,14 @@ a {
   text-align:left;
   // background:#fafafa;
   border-radius:20px;
-  padding:20px;
+  padding:50px 20px 20px 20px;
   section {
     margin-bottom:60px;
+    scroll-margin-top:100px;
+
+    img.full_column {
+      width: 100%;
+    }
   }
   h2 {
     margin:0;
@@ -98,14 +134,15 @@ a {
     // padding-left:1em;
     color:#aaa;
     em{
-      color:$pinkyred;
+      color:#333;
+      font-size:1.2em;
       font-style:normal;
     }
   }
   p {
     font-size:0.9em;
     line-height:1.5em;
-    padding-right:10em;
+    padding-right:0;
     em {
       font-weight:700;
       font-style:normal;
@@ -216,7 +253,7 @@ ul.publications {
 
 .project {
   margin-top:16px;
-  margin-bottom:40px;
+  margin-bottom:70px;
   line-height:1.4em;
   .image {
     width:100%;

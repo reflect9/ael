@@ -1,9 +1,13 @@
-import image_ids_all from "./images/project_photo/ids-all.png";
+import iitp from "./images/project_photo/iitp.png";
+import fush from "./images/project_photo/fush.png";
+import skully from "./images/project_photo/skully.png";
+import ids from "./images/project_photo/ids.png";
+import korail from "./images/project_photo/korail.png";
 import image_sgd_all from "./images/project_photo/SGD/sgd_all.jpg";
 import maehwasoo from "./images/project_photo/maehwasoo.png";
 
 const Projects=(
-<section>
+<section id="projects">
 <h2>Projects</h2>
 
 
@@ -24,7 +28,7 @@ const Projects=(
     work-related stress factors. 
   </div>
   <div className="image" style={{margin:"20px auto", width:"80%",}}>
-    
+    <img src={iitp}/>
   </div>
 </div>
 
@@ -44,7 +48,7 @@ const Projects=(
     During the first year the team has led the System Design class, and created some interesting <a href='https://takyeon.notion.site/Term-Projects-ID403-a6407bf323bc4f0cb0e0496944a640bb'>design concepts</a>. 
   </div>
   <div className="image" style={{margin:"20px auto", width:"80%",}}>
-    
+    <img src={fush}/>
   </div>
 </div>
 
@@ -63,7 +67,7 @@ const Projects=(
     Gender estimation is the first step when an unidentified skull is found. Gender estimation is currently done by forensic experts. However, we developed a novel web appication that allows non-expert users to estimate gender of any skull with only three images. We trained a computer vision model from rendered images of 800 3D skull models, which exceeds state-of-the-art   
   </div>
   <div className="image" style={{margin:"20px auto", width:"80%",}}>
-    <img src={image_sgd_all}/>
+    <img src={skully}/>
   </div>
 </div>
 
@@ -82,11 +86,29 @@ const Projects=(
     This project aims to build an AI-assisted  authoring tool of immersive data storytelling (IDS). Our tool focuses on maximizing the following benefits of IDS: (1) Meaningful and engaging composition of charts in 3D space, (2) Embodied interaction between presenter and charts, (3) Enabling collaborative data exploration in a virtual space. Our tool makes IDS authoring easier and more effective by automating low-level specifications and recommending semantically meaningful chart arrangements. 
   </div>
   <div className="image" style={{margin:"20px auto", width:"80%",}}>
-    <img src={image_ids_all}/>
+    <img src={ids}/>
   </div>
 </div>
 
 <div className="project">
+  <div className="title">
+      Interactive Dashboard for High-Speed Train Safety Management
+  </div>
+  <div className="contributors">
+    <span className="sponsor"> Sponsored by <b>KORAIL, South Korea</b></span>
+  </div>
+  <div className="time">
+    March 2021 - September 2021
+  </div>
+  <div className="description">
+    Sensor data is a critical source of information for high-speed train safety management. However, it is not easy to understand the overall status of the train from the raw sensor data. This project aims to design, implement, and deliver an interactive dashboard for train operators. Operators can use the dashboard to understand the overall status of the train, and to quickly identify abnormal situations. 
+  </div>
+  <div className="image" style={{margin:"20px auto", width:"80%",}}>
+    <img src={korail}/>
+  </div>
+</div>
+
+{/* <div className="project">
   <div className="title">
       Data-Driven Discovery for Design Opportunities in the Context of Consumer Electronics
   </div>
@@ -104,7 +126,7 @@ const Projects=(
     their customers' lifestyle and preferences on consumer electronics.  
     This is a six-month consulting project that prof Tak Yeon Lee did with LG Electronics. 
   </div>
-</div>
+</div> */}
 
 <div className="project">
   <div className="title">

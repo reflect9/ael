@@ -1,6 +1,6 @@
 
 export default (
-        <section>
+        <section id="publications">
           <h2>Publications</h2>
           <h3>2022</h3>
           <ul className="publications">
@@ -48,7 +48,7 @@ export default (
                 </div>
                 <div className="description">
                 Proceedings of the 32nd IEEE VIS 2021, Visualization Conference
-                <span class="acknowledgement">Honorable Mention</span>
+                <span className="acknowledgement">Honorable Mention</span>
                 <a className="link" target="_blank" href="https://homes.cs.washington.edu/~leibatt/static/papers/zeng2021evaluation.pdf">[PDF]</a>
                 </div>
               </div>
