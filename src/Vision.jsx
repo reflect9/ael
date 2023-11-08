@@ -2,9 +2,9 @@
 
 const Vision = (
     <section id="vision">
-        <h2>Vision</h2>
+        <h2>About</h2>
         <p>
-            Welcome to the AI Experience Lab (AEL) founded by prof. <a href="http://www.takyeonlee.com" target='_blank'>Tak Yeon Lee</a> in 2021. We create innovation solutions for real-world problems by integrating the power of <em>design</em>, <em>data</em>, and <em>AI-technology</em>. 
+            Welcome to the AI Experience Lab (AEL) founded in 2021 by prof. <a href="http://www.takyeonlee.com" target='takyeonlee'>Tak Yeon Lee</a> at the <a href="https://id.kaist.ac.kr" target='id'>Industrial Design department</a>, <a href="https://www.kaist.ac.kr" target='kaist'>KAIST</a>. We create innovation solutions for real-world problems by integrating the power of <em>design</em>, <em>data</em>, and <em>AI-technology</em>. 
         </p>
 
         <h3><em>Data-Centric Approach</em></h3>

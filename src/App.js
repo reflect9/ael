@@ -9,6 +9,7 @@ import Publications from "./Publications.jsx";
 
 // import noun_person from "./images/noun_person.png";
 import logo_kaist from "./images/logo-kaist.png";
+import logo_id from "./images/logo-id.png";
 
 // import noun_person_svg from "./images/noun_Human_823373.svg";
 // import SimpleImageSlider from "react-simple-image-slider";
@@ -55,7 +56,7 @@ function App() {
           </a> */}
         <div className="App-header-content">
           <div className="lab_title">
-            AEL: <span className="light">AI Experience Lab</span>
+            AEL  <span className="light">AI Experience Lab</span>
           </div>
           <div className="nav">
             <ul>
@@ -70,7 +71,9 @@ function App() {
             
           </div>
           <div className="right">
-            <a href="https://www.kaist.ac.kr" target="kaist"><img src={logo_kaist} /></a>
+            <a href="https://www.kaist.ac.kr" target="kaist"><img className="logo_kaist" src={logo_kaist} /></a>
+            {/* <a href="https://id.kaist.ac.kr" target="id"><img className="logo_id" src={logo_id} /></a> */}
+            
           </div>
           
         </div>

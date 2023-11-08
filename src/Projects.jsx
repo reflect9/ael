@@ -86,7 +86,10 @@ const Projects=(
     This project aims to build an AI-assisted  authoring tool of immersive data storytelling (IDS). Our tool focuses on maximizing the following benefits of IDS: (1) Meaningful and engaging composition of charts in 3D space, (2) Embodied interaction between presenter and charts, (3) Enabling collaborative data exploration in a virtual space. Our tool makes IDS authoring easier and more effective by automating low-level specifications and recommending semantically meaningful chart arrangements. 
   </div>
   <div className="image" style={{margin:"20px auto", width:"80%",}}>
-    <img src={ids}/>
+    {/* <img src={ids}/> */}
+    <div className="videoContainer">
+      <iframe src="https://www.youtube.com/embed/EOy8W6r-2wU?si=pCApomi3gBOWyJxR&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
   </div>
 </div>
 
