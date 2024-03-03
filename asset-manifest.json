@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ael/static/css/main.98f7aa86.css",
-    "main.js": "/ael/static/js/main.a232100c.js",
+    "main.css": "/ael/static/css/main.bc104a00.css",
+    "main.js": "/ael/static/js/main.639a7211.js",
     "static/js/453.af80c604.chunk.js": "/ael/static/js/453.af80c604.chunk.js",
     "static/media/lab_activities.png": "/ael/static/media/lab_activities.1eddad031f2d9b61a889.png",
     "static/media/yusangyun.jpg": "/ael/static/media/yusangyun.59f3c49a08dbbbe0736b.jpg",
@@ -15,6 +15,7 @@
     "static/media/jeehunchoi.jpg": "/ael/static/media/jeehunchoi.eb2a3f9ee801160003df.jpg",
     "static/media/korail.png": "/ael/static/media/korail.841543be69b9342f34b3.png",
     "static/media/jinjeong.jpg": "/ael/static/media/jinjeong.a6692e517059a0e09dad.jpg",
+    "static/media/dear_if.png": "/ael/static/media/dear_if.0b5a3c1e81cc3d9ca56b.png",
     "static/media/minsunkim.jpg": "/ael/static/media/minsunkim.fd22289d9965100bfde7.jpg",
     "static/media/joohyoungpark.jpeg": "/ael/static/media/joohyoungpark.7d27ba54f86849da8674.jpeg",
     "static/media/seongyeomkim.jpg": "/ael/static/media/seongyeomkim.6f7cf37aa78e2ac6c2f8.jpg",
@@ -22,12 +23,12 @@
     "static/media/logo-id.png": "/ael/static/media/logo-id.5efc1b03dac1ecfa71f4.png",
     "static/media/logo-kaist.png": "/ael/static/media/logo-kaist.ec5f7cf52bf653612b3f.png",
     "index.html": "/ael/index.html",
-    "main.98f7aa86.css.map": "/ael/static/css/main.98f7aa86.css.map",
-    "main.a232100c.js.map": "/ael/static/js/main.a232100c.js.map",
+    "main.bc104a00.css.map": "/ael/static/css/main.bc104a00.css.map",
+    "main.639a7211.js.map": "/ael/static/js/main.639a7211.js.map",
     "453.af80c604.chunk.js.map": "/ael/static/js/453.af80c604.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.98f7aa86.css",
-    "static/js/main.a232100c.js"
+    "static/css/main.bc104a00.css",
+    "static/js/main.639a7211.js"
   ]
 }
