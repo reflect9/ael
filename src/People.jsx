@@ -7,10 +7,12 @@ import yusangyun_image from "./images/member_photo/yusangyun.jpg";
 import byoungjaekim_image from "./images/member_photo/byoungjaekim.jpg";
 import minsunkim_image from "./images/member_photo/minsunkim.jpg";
 import jinjeong_image from "./images/member_photo/jinjeong.jpg";
+import hyunseungmoon_image from "./images/member_photo/hyunseungmoon.jpg";
 
 const People = (
         <section id="people">
           <h2>Who We Are</h2>
+          <h3>Current Members</h3>
           <ul className="people_list">
             <li>
               <a href="https://www.takyeonlee.com" target='_blank' rel="noreferrer"><img src={tak_image} /></a>
@@ -29,14 +31,6 @@ const People = (
               <div className="role">PhD Student</div>
               <div className="email">
                 ksg_0320@kaist.ac.kr
-              </div>
-            </li>
-            <li>
-              <img src={joohyoungpark_image} />
-              <div className="name">Juhyeong, Park</div>
-              <div className="role">Master Student</div>
-              <div className="email">
-                wngud913@kaist.ac.kr
               </div>
             </li>
             <li>
@@ -71,9 +65,28 @@ const People = (
                 tasa2000@kaist.ac.kr
               </div>
             </li>
+            <li>
+              <img src={hyunseungmoon_image} />
+              <div className="name">HyunSeung, Moon</div>
+              <div className="role">Master Student</div>
+              <div className="email">
+                mzes0401@kaist.ac.kr
+              </div>
+            </li>
             
           </ul>
-          
+
+          <h3>Alumni</h3>
+          <ul className="people_list">
+          <li>
+              <img src={joohyoungpark_image} />
+              <div className="name">Juhyeong, Park</div>
+              <div className="role">MSc.(2024)</div>
+              <div className="email">
+                wngud913@kaist.ac.kr
+              </div>
+            </li>
+          </ul>
             {/* <li>
               <img src={jeehunchoi_image} />
               <div className="name">Jee Hun, Choi</div>

@@ -2,6 +2,37 @@
 export default (
         <section id="publications">
           <h2>Publications</h2>
+          <h3>2024</h3>
+          <ul className="publications">
+            <li>
+              <div className="bib-item">
+                <div className="title">
+                RECIPE4U: Student-ChatGPT Interaction Dataset in EFL Writing Education
+                </div>
+                <div className="authors">
+                Jieun Han, Haneul Yoo, Junho Myung, Minsun Kim, Tak Yeon Lee, So-Yeon Ahn and Alice Oh
+                </div>
+                <div className="description">
+                Accepted for LREC-COLING 2024
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div className="bib-item">
+                <div className="title">
+                Virfie: Enhancing Remote Togetherness with User-Created Scenarios for Virtual Group Selfie
+                </div>
+                <div className="authors">
+                Hyerin Im, Taewan Kim, Eunhee Jung, Bonhee Ku, Seungho Baek, Youn-kyung Lim, Tek-Jin Nam, and Tak Yeon Lee
+                </div>
+                <div className="description">
+                Accepted for Intelligent Systems Conference (IntelliSys) 2024, published in Lecture Notes in Networks and Systems
+                </div>
+              </div>
+            </li>
+          </ul>
+
           <h3>2023</h3>
           <ul className="publications">
             <li>
@@ -39,10 +70,10 @@ export default (
                 SpotLight: Visual Insight Recommendation
                 </div>
                 <div className="authors">
-                Jieun Han, Haneul Yoo, Yoonsu Kim, Junho Myung, Minsun Kim, Hyunseung Lim, Juho Kim, Tak Yeon Lee, Hwajung Hong, Alice Oh and So-Yeon Ahn
+                Camille Harris, Ryan Rossi, Sana Malik, Jane Hoffswell, Fan Du, Tak Yeon Lee, Eunyee Koh, and Handong Zhao.
                 </div>
                 <div className="description">
-                Work-In-Progress paper at L@S (Learning at Scale) conference 2023
+                WWW '23 Companion: Companion Proceedings of the ACM Web Conference 2023
                 <a className="link" target="_blank" href="https://dl.acm.org/doi/abs/10.1145/3543873.3587302">[Full Paper]</a>
                 </div>
               </div>
