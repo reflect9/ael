@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ael/static/css/main.bc104a00.css",
-    "main.js": "/ael/static/js/main.75b58749.js",
+    "main.js": "/ael/static/js/main.d617bb1c.js",
     "static/js/453.af80c604.chunk.js": "/ael/static/js/453.af80c604.chunk.js",
     "static/media/lab_activities.png": "/ael/static/media/lab_activities.1eddad031f2d9b61a889.png",
     "static/media/yusangyun.jpg": "/ael/static/media/yusangyun.59f3c49a08dbbbe0736b.jpg",
@@ -12,12 +12,14 @@
     "static/media/tak.jpg": "/ael/static/media/tak.1df9d412297203f294dc.jpg",
     "static/media/ids.png": "/ael/static/media/ids.877f9e3c38ccdd61c565.png",
     "static/media/iitp.png": "/ael/static/media/iitp.793ec7ebd2784849264d.png",
+    "static/media/jaeyoungchoi.jpg": "/ael/static/media/jaeyoungchoi.3c98a64ad916d7a84619.jpg",
     "static/media/jeehunchoi.jpg": "/ael/static/media/jeehunchoi.eb2a3f9ee801160003df.jpg",
     "static/media/dear_if.jpg": "/ael/static/media/dear_if.1e40d72f20018b64f1dc.jpg",
     "static/media/korail.png": "/ael/static/media/korail.841543be69b9342f34b3.png",
     "static/media/jinjeong.jpg": "/ael/static/media/jinjeong.a6692e517059a0e09dad.jpg",
     "static/media/minsunkim.jpg": "/ael/static/media/minsunkim.fd22289d9965100bfde7.jpg",
     "static/media/joohyoungpark.jpeg": "/ael/static/media/joohyoungpark.7d27ba54f86849da8674.jpeg",
+    "static/media/hyunlee.jpeg": "/ael/static/media/hyunlee.72ab5394f3f1a3203caf.jpeg",
     "static/media/hyunseungmoon.jpg": "/ael/static/media/hyunseungmoon.f4d00b8aba389c8e73c1.jpg",
     "static/media/seongyeomkim.jpg": "/ael/static/media/seongyeomkim.6f7cf37aa78e2ac6c2f8.jpg",
     "static/media/donggunlee.jpeg": "/ael/static/media/donggunlee.b0e5e76e9bb3bd12a834.jpeg",
@@ -25,11 +27,11 @@
     "static/media/logo-kaist.png": "/ael/static/media/logo-kaist.ec5f7cf52bf653612b3f.png",
     "index.html": "/ael/index.html",
     "main.bc104a00.css.map": "/ael/static/css/main.bc104a00.css.map",
-    "main.75b58749.js.map": "/ael/static/js/main.75b58749.js.map",
+    "main.d617bb1c.js.map": "/ael/static/js/main.d617bb1c.js.map",
     "453.af80c604.chunk.js.map": "/ael/static/js/453.af80c604.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bc104a00.css",
-    "static/js/main.75b58749.js"
+    "static/js/main.d617bb1c.js"
   ]
 }
