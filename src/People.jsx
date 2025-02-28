@@ -8,86 +8,103 @@ import byoungjaekim_image from "./images/member_photo/byoungjaekim.jpg";
 import minsunkim_image from "./images/member_photo/minsunkim.jpg";
 import jinjeong_image from "./images/member_photo/jinjeong.jpg";
 import hyunseungmoon_image from "./images/member_photo/hyunseungmoon.jpg";
+import jaeyoungchoi_image from "./images/member_photo/jaeyoungchoi.jpg";
+import hyunlee_image from "./images/member_photo/hyunlee.jpeg";
 
 const People = (
-        <section id="people">
-          <h2>Who We Are</h2>
-          <h3>Current Members</h3>
-          <ul className="people_list">
-            <li>
-              <a href="https://www.takyeonlee.com" target='_blank' rel="noreferrer"><img src={tak_image} /></a>
-              <div className="name">Tak Yeon, Lee</div>
-              <div className="role">Assistant Professor</div>
-              <div className="email">
-                takyeonlee@kaist.ac.kr
-              </div>
-              <div className="website">
-                <a href="https://www.takyeonlee.com">website</a>
-              </div>
-            </li>
-            <li>
-              <img src={seongyeomkim_image} />
-              <div className="name">Seon Gyeom, Kim</div>
-              <div className="role">PhD Student</div>
-              <div className="email">
-                ksg_0320@kaist.ac.kr
-              </div>
-            </li>
-            <li>
-              <img src={byoungjaekim_image} />
-              <div className="name">Byoungjae, Kim</div>
-              <div className="role">Master Student</div>
-              <div className="email">
-                bj.kim@kaist.ac.kr
-              </div>
-            </li>
-            <li>
-              <img src={yusangyun_image} />
-              <div className="name">Yoosang, Yoon</div>
-              <div className="role">Master Student</div>
-              <div className="email">
-                soulmilk98@kaist.ac.kr
-              </div>
-            </li>
-            <li>
-              <img src={minsunkim_image} />
-              <div className="name">Minsun, Kim</div>
-              <div className="role">Master Student</div>
-              <div className="email">
-                9909cindy@kaist.ac.kr 
-              </div>
-            </li>
-            <li>
-              <img src={jinjeong_image} />
-              <div className="name">Jin, Jeong</div>
-              <div className="role">Master Student</div>
-              <div className="email">
-                tasa2000@kaist.ac.kr
-              </div>
-            </li>
-            <li>
-              <img src={hyunseungmoon_image} />
-              <div className="name">HyunSeung, Moon</div>
-              <div className="role">Master Student</div>
-              <div className="email">
-                mzes0401@kaist.ac.kr
-              </div>
-            </li>
-            
-          </ul>
+  <section id="people">
+    <h2>Who We Are</h2>
+    <h3>Current Members</h3>
+    <ul className="people_list">
+      <li>
+        <a href="https://www.takyeonlee.com" target='_blank' rel="noreferrer"><img src={tak_image} /></a>
+        <div className="name">Tak Yeon, Lee</div>
+        <div className="role">Assistant Professor</div>
+        <div className="email">
+          takyeonlee@kaist.ac.kr
+        </div>
+        <div className="website">
+          <a href="https://www.takyeonlee.com">website</a>
+        </div>
+      </li>
+      <li>
+        <img src={seongyeomkim_image} />
+        <div className="name">Seon Gyeom, Kim</div>
+        <div className="role">PhD Student</div>
+        <div className="email">
+          ksg_0320@kaist.ac.kr
+        </div>
+      </li>
+      <li>
+        <img src={jinjeong_image} />
+        <div className="name">Jin, Jeong</div>
+        <div className="role">Master Student</div>
+        <div className="email">
+          tasa2000@kaist.ac.kr
+        </div>
+      </li>
+      <li>
+        <img src={hyunseungmoon_image} />
+        <div className="name">HyunSeung, Moon</div>
+        <div className="role">Master Student</div>
+        <div className="email">
+          mzes0401@kaist.ac.kr
+        </div>
+      </li>
+      <li>
+        <img src={jaeyoungchoi_image} />
+        <div className="name">JaeYoung, Choi</div>
+        <div className="role">Master Student</div>
+        <div className="email">
+        jaeyoungchoi@kaist.ac.kr 
+        </div>
+      </li>
+      <li>
+        <img src={hyunlee_image} />
+        <div className="name">Hyun, Lee</div>
+        <div className="role">Master Student</div>
+        <div className="email">
+        hyunini0408@kaist.ac.kr 
+        </div>
+      </li>
 
-          <h3>Alumni</h3>
-          <ul className="people_list">
-          <li>
-              <img src={joohyoungpark_image} />
-              <div className="name">Juhyeong, Park</div>
-              <div className="role">MSc.(2024)</div>
-              <div className="email">
-                wngud913@kaist.ac.kr
-              </div>
-            </li>
-          </ul>
-            {/* <li>
+    </ul>
+
+    <h3>Alumni</h3>
+    <ul className="people_list">
+      <li>
+        <img src={joohyoungpark_image} />
+        <div className="name">Juhyeong, Park</div>
+        <div className="role">
+          MSc.<br />
+          UX Designer @ Hyundai Card
+        </div>
+
+      </li>
+      <li>
+        <img src={byoungjaekim_image} />
+        <div className="name">Byoungjae, Kim</div>
+        <div className="role">MSc.<br/>
+          PhD Student @ KAIST
+        </div>
+        
+      </li>
+      <li>
+        <img src={yusangyun_image} />
+        <div className="name">Yoosang, Yoon</div>
+        <div className="role">MSc.<br/>
+          UX Researcher
+        </div>
+      </li>
+      <li>
+        <img src={minsunkim_image} />
+        <div className="name">Minsun, Kim</div>
+        <div className="role">MSc.<br/>
+          Job Searching
+        </div>
+      </li>
+    </ul>
+    {/* <li>
               <img src={jeehunchoi_image} />
               <div className="name">Jee Hun, Choi</div>
               <div className="role">Undergraduate Researcher</div>
@@ -95,7 +112,7 @@ const People = (
                 jeehun@kaist.ac.kr
               </div>
             </li> */}
-            {/* <li>
+    {/* <li>
               <img src={donggunlee_image} />
               <div className="name">Dong Gun, Lee</div>
               <div className="role">Undergraduate Researcher</div>
@@ -103,6 +120,6 @@ const People = (
                 jlee4330@kaist.ac.kr
               </div>
             </li> */}
-          {/* </ul> */}
-        </section>);
+    {/* </ul> */}
+  </section>);
 export default People;
