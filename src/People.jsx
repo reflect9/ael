@@ -10,6 +10,7 @@ import jinjeong_image from "./images/member_photo/jinjeong.jpg";
 import hyunseungmoon_image from "./images/member_photo/hyunseungmoon.jpg";
 import jaeyoungchoi_image from "./images/member_photo/jaeyoungchoi.jpg";
 import hyunlee_image from "./images/member_photo/hyunlee.jpeg";
+import jaeryungchung_image from "./images/member_photo/jaeryungchung.jpg";
 
 const People = (
   <section id="people">
@@ -36,14 +37,6 @@ const People = (
         </div>
       </li>
       <li>
-        <img src={jinjeong_image} />
-        <div className="name">Jin, Jeong</div>
-        <div className="role">Master Student</div>
-        <div className="email">
-          tasa2000@kaist.ac.kr
-        </div>
-      </li>
-      <li>
         <img src={hyunseungmoon_image} />
         <div className="name">HyunSeung, Moon</div>
         <div className="role">Master Student</div>
@@ -65,6 +58,14 @@ const People = (
         <div className="role">Master Student</div>
         <div className="email">
         hyunini0408@kaist.ac.kr 
+        </div>
+      </li>
+      <li>
+        <img src={jaeryungchung_image} />
+        <div className="name">Jaeryung, Chung</div>
+        <div className="role">Master Student</div>
+        <div className="email">
+        jhyun513@kaist.ac.kr
         </div>
       </li>
 
@@ -101,6 +102,14 @@ const People = (
         <div className="name">Minsun, Kim</div>
         <div className="role">MSc.<br/>
           Job Searching
+        </div>
+      </li>
+      <li>
+        <img src={jinjeong_image} />
+        <div className="name">Jin, Jeong</div>
+        <div className="role">Master Student</div>
+        <div className="email">
+          tasa2000@kaist.ac.kr
         </div>
       </li>
     </ul>

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ael/static/css/main.bc104a00.css",
-    "main.js": "/ael/static/js/main.d617bb1c.js",
+    "main.js": "/ael/static/js/main.1c171ec1.js",
     "static/js/453.af80c604.chunk.js": "/ael/static/js/453.af80c604.chunk.js",
     "static/media/lab_activities.png": "/ael/static/media/lab_activities.1eddad031f2d9b61a889.png",
     "static/media/yusangyun.jpg": "/ael/static/media/yusangyun.59f3c49a08dbbbe0736b.jpg",
@@ -17,6 +17,7 @@
     "static/media/dear_if.jpg": "/ael/static/media/dear_if.1e40d72f20018b64f1dc.jpg",
     "static/media/korail.png": "/ael/static/media/korail.841543be69b9342f34b3.png",
     "static/media/jinjeong.jpg": "/ael/static/media/jinjeong.a6692e517059a0e09dad.jpg",
+    "static/media/jaeryungchung.jpg": "/ael/static/media/jaeryungchung.b32f167123aa007bf64a.jpg",
     "static/media/minsunkim.jpg": "/ael/static/media/minsunkim.fd22289d9965100bfde7.jpg",
     "static/media/joohyoungpark.jpeg": "/ael/static/media/joohyoungpark.7d27ba54f86849da8674.jpeg",
     "static/media/hyunlee.jpeg": "/ael/static/media/hyunlee.72ab5394f3f1a3203caf.jpeg",
@@ -27,11 +28,11 @@
     "static/media/logo-kaist.png": "/ael/static/media/logo-kaist.ec5f7cf52bf653612b3f.png",
     "index.html": "/ael/index.html",
     "main.bc104a00.css.map": "/ael/static/css/main.bc104a00.css.map",
-    "main.d617bb1c.js.map": "/ael/static/js/main.d617bb1c.js.map",
+    "main.1c171ec1.js.map": "/ael/static/js/main.1c171ec1.js.map",
     "453.af80c604.chunk.js.map": "/ael/static/js/453.af80c604.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bc104a00.css",
-    "static/js/main.d617bb1c.js"
+    "static/js/main.1c171ec1.js"
   ]
 }
