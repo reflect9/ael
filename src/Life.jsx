@@ -1,4 +1,5 @@
-import lab_activities from "./images/lab_activities.png";
+//import lab_activities from "./images/lab_activities.png";
+import lab_activities from "./images/lab_activities_new.png";
 
 const Life = (
     <section id="life">

@@ -4,6 +4,22 @@ export default (
     <section id="courses">
     <h2>Courses</h2>
 
+    <h3>ID.49902 Designing Artificial Human Behavior
+      &nbsp;&nbsp;&nbsp;<a href="https://takyeon.notion.site/ID403-System-Design-c1bb4fc93e5342cfbb8fa32d9fb58fea" target="_blank">Spring 2025 - </a>
+    </h3>
+    <p>
+    In this course, students will experience the process of designing artificial models of the human mind, personality, and experiences using large language models (LLMs), developing them into innovative product/service features, and evaluating their outcomes. The 16-week program combines theory, individual assignments and exercises, and group projects. Through theoretical learning, students will master the principles and characteristics of LLMs while exploring various issues such as AI usability, ethics, security, and evaluation methods through case studies and research papers. Individual assignments and exercises focus on teaching prompt engineering and prototyping skills. Finally, group projects (3-4 members) aim to analyze user challenges and needs within a specific domain and propose AI-driven product/service features to address these issues. The process includes the following steps:
+    <p>
+      <ol>
+        <li>Implementing core features using manual prompts.</li>
+        <li>Advancing the solution by applying techniques such as Retrieval-Augmented Generation (RAG), Chain-of-Thought (CoT), or fine-tuning.</li>
+        <li>Completing a prototype, including a user interface.</li>
+        <li>Conducting evaluations.</li>
+      </ol>
+    </p>
+    This course equips students with the knowledge to use LLMs as a design material, providing hands-on experience in designing, developing, and evaluating innovative product/service features.</p>
+
+
     <h3>ID403 System Design
       &nbsp;&nbsp;&nbsp;<a href="https://takyeon.notion.site/ID403-System-Design-c1bb4fc93e5342cfbb8fa32d9fb58fea" target="_blank">Spring 2022 - </a>
     </h3>
