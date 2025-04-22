@@ -29,11 +29,14 @@ const People = (
         </div>
       </li>
       <li>
-        <img src={seongyeomkim_image} />
+        <a href="https://kimseongyeom.github.io/" target='_blank' rel="noreferrer"><img src={seongyeomkim_image} /></a>
         <div className="name">Seon Gyeom, Kim</div>
         <div className="role">PhD Student</div>
         <div className="email">
           ksg_0320@kaist.ac.kr
+        </div>
+        <div className="website">
+          <a href="https://kimseongyeom.github.io/">website</a>
         </div>
       </li>
       <li>
@@ -45,11 +48,14 @@ const People = (
         </div>
       </li>
       <li>
-        <img src={jaeyoungchoi_image} />
+      <a href="https://kimseongyeom.github.io/" target='_blank' rel="noreferrer"><img src={jaeyoungchoi_image} /></a>
         <div className="name">JaeYoung, Choi</div>
         <div className="role">Master Student</div>
         <div className="email">
         jaeyoungchoi@kaist.ac.kr 
+        </div>
+        <div className="website">
+          <a href="https://jaeyoungchoi1.github.io/">website</a>
         </div>
       </li>
       <li>
