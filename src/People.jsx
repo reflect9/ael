@@ -48,7 +48,7 @@ const People = (
         </div>
       </li>
       <li>
-      <a href="https://kimseongyeom.github.io/" target='_blank' rel="noreferrer"><img src={jaeyoungchoi_image} /></a>
+      <a href="https://jaeyoungchoi1.github.io/" target='_blank' rel="noreferrer"><img src={jaeyoungchoi_image} /></a>
         <div className="name">JaeYoung, Choi</div>
         <div className="role">Master Student</div>
         <div className="email">
@@ -59,11 +59,14 @@ const People = (
         </div>
       </li>
       <li>
-        <img src={hyunlee_image} />
+      <a href="https://hyun-lee.web.app/" target='_blank' rel="noreferrer"><img src={hyunlee_image} /></a>
         <div className="name">Hyun, Lee</div>
         <div className="role">Master Student</div>
         <div className="email">
         hyunini0408@kaist.ac.kr 
+        </div>
+        <div className="website">
+          <a href="https://hyun-lee.web.app/">website</a>
         </div>
       </li>
       <li>
