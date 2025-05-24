@@ -70,11 +70,14 @@ const People = (
         </div>
       </li>
       <li>
-        <img src={jaeryungchung_image} />
+        <a href="www.linkedin.com/in/jaeryungchung" target='_blank' rel="noreferrer"><img src={jaeryungchung_image} /></a>
         <div className="name">Jaeryung, Chung</div>
         <div className="role">Master Student</div>
         <div className="email">
         jhyun513@kaist.ac.kr
+        </div>
+        <div className="website">
+          <a href="www.linkedin.com/in/jaeryungchung">website</a>
         </div>
       </li>
 
