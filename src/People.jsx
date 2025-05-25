@@ -77,7 +77,7 @@ const People = (
         jhyun513@kaist.ac.kr
         </div>
         <div className="website">
-          <a href="www.linkedin.com/in/jaeryungchung">website</a>
+          <a href="www.linkedin.com/in/jaeryungchung">LinkedIn</a>
         </div>
       </li>
 
