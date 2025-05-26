@@ -70,14 +70,14 @@ const People = (
         </div>
       </li>
       <li>
-        <a href="www.linkedin.com/in/jaeryungchung" target='_blank' rel="noreferrer"><img src={jaeryungchung_image} /></a>
+        <a href="https://www.linkedin.com/in/jaeryungchung" target='_blank' rel="noreferrer"><img src={jaeryungchung_image} /></a>
         <div className="name">Jaeryung, Chung</div>
         <div className="role">Master Student</div>
         <div className="email">
         jhyun513@kaist.ac.kr
         </div>
         <div className="website">
-          <a href="www.linkedin.com/in/jaeryungchung">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/jaeryungchung">LinkedIn</a>
         </div>
       </li>
 
@@ -106,14 +106,14 @@ const People = (
         <img src={yusangyun_image} />
         <div className="name">Yoosang, Yoon</div>
         <div className="role">MSc.<br/>
-          UX Researcher
+          LLM Expert @ PLATEER
         </div>
       </li>
       <li>
         <img src={minsunkim_image} />
         <div className="name">Minsun, Kim</div>
         <div className="role">MSc.<br/>
-          Job Searching
+          Product Manager @ Korea Telecom
         </div>
       </li>
       <li>
