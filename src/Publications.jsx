@@ -55,7 +55,7 @@ export default (
                 <em>Seon Gyeom Kim</em>, <em>Jae Young Choi</em>, Ryan Rossi, Eunyee Koh, and <em>Tak Yeon Lee</em>
                 </div>
                 <div className="description">
-                2025 IEEE 17th Pacific Visualization Conference (PacificVis)
+                2025 IEEE 18th Pacific Visualization Conference (PacificVis)
                 <span className="acknowledgement">Best Paper</span>
                 <a className="link" target="_blank" href="https://www.arxiv.org/abs/2505.17374">[Short Paper]</a>
                 </div>
