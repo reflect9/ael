@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.f739d522.css",
-    "main.js": "/static/js/main.759f8176.js",
+    "main.css": "/static/css/main.866a2957.css",
+    "main.js": "/static/js/main.e15ed7da.js",
     "static/js/453.eccc9221.chunk.js": "/static/js/453.eccc9221.chunk.js",
+    "static/media/LIGS.mp4": "/static/media/LIGS.e893dc8e15b57e92bf0c.mp4",
     "static/media/DS4_Imm.gif": "/static/media/DS4_Imm.934ff29674050493d0c4.gif",
     "static/media/WrightHere3.png": "/static/media/WrightHere3.4773a6efa294d4b9cade.png",
     "static/media/skulpt-bien-2.png": "/static/media/skulpt-bien-2.917d301b8e082de7693b.png",
@@ -10,7 +11,6 @@
     "static/media/chart2exp-all.png": "/static/media/chart2exp-all.37e0309035e482f8e187.png",
     "static/media/yusangyun.jpg": "/static/media/yusangyun.59f3c49a08dbbbe0736b.jpg",
     "static/media/wrighthere.png": "/static/media/wrighthere.999eeb4b6c8393b3ac47.png",
-    "static/media/HistoChat2.png": "/static/media/HistoChat2.5c34fa714d1e5f3044aa.png",
     "static/media/Skully.png": "/static/media/Skully.d92b7372aa3eafa419a8.png",
     "static/media/DS2_Imm.gif": "/static/media/DS2_Imm.05f59676ae11fcd6fe9a.gif",
     "static/media/skully.png": "/static/media/skully.60cb0635dffd936ad9d7.png",
@@ -25,6 +25,7 @@
     "static/media/skulpt.jpeg": "/static/media/skulpt.47c78fb6d3ded8cf4894.jpeg",
     "static/media/lab_activities_new.png": "/static/media/lab_activities_new.b1c6f69920be9db59225.png",
     "static/media/Lifegraphy-2.png": "/static/media/Lifegraphy-2.9630f093a86c969f4843.png",
+    "static/media/LIGS.png": "/static/media/LIGS.fb7bc65d81dade75c090.png",
     "static/media/tak.jpg": "/static/media/tak.1df9d412297203f294dc.jpg",
     "static/media/Gaze2Prompt3.png": "/static/media/Gaze2Prompt3.fb4d03c5c4532a00bf3e.png",
     "static/media/DS4_Anm.gif": "/static/media/DS4_Anm.546b2c342dad9dd69abe.gif",
@@ -44,6 +45,7 @@
     "static/media/ids7.png": "/static/media/ids7.3897a2e15f22e43c6fb8.png",
     "static/media/jaeyoungchoi.jpg": "/static/media/jaeyoungchoi.3c98a64ad916d7a84619.jpg",
     "static/media/ids2.png": "/static/media/ids2.c46b712f5d6cadca3b1e.png",
+    "static/media/histochat-teaser.jpeg": "/static/media/histochat-teaser.34f1c8c670d90b3bdfdd.jpeg",
     "static/media/Lifegraphy-1.png": "/static/media/Lifegraphy-1.ad2a1faf3ef4e18cdb42.png",
     "static/media/ids3.png": "/static/media/ids3.340f4c330ae9a0a3f3b4.png",
     "static/media/dear_if.jpg": "/static/media/dear_if.1e40d72f20018b64f1dc.jpg",
@@ -69,21 +71,22 @@
     "static/media/lifegraphy.jpg": "/static/media/lifegraphy.3443d66f7c4703d61c55.jpg",
     "static/media/iitp-crop.png": "/static/media/iitp-crop.073e5ca411780c062047.png",
     "static/media/joohyoungpark.jpeg": "/static/media/joohyoungpark.7d27ba54f86849da8674.jpeg",
+    "static/media/donggunlee.png": "/static/media/donggunlee.3db38f8906c01c1ed267.png",
     "static/media/iitp1.png": "/static/media/iitp1.a2084b6177537b307e6a.png",
-    "static/media/louiskahn.jpeg": "/static/media/louiskahn.18500631aefa3f8af20c.jpeg",
     "static/media/2025_6_11.jpeg": "/static/media/2025_6_11.d2f4de7628247b3710f3.jpeg",
-    "static/media/hyunlee.jpeg": "/static/media/hyunlee.72ab5394f3f1a3203caf.jpeg",
+    "static/media/yoonjaeoh.jpg": "/static/media/yoonjaeoh.a1b6f21fa1fde1d01a24.jpg",
     "static/media/c2e.jpg": "/static/media/c2e.7a422e349e31e4879ff1.jpg",
     "static/media/hyunseungmoon.jpg": "/static/media/hyunseungmoon.f4d00b8aba389c8e73c1.jpg",
+    "static/media/hyunlee.jpeg": "/static/media/hyunlee.c51d79c9903b63b4c09a.jpeg",
     "static/media/seongyeomkim.jpg": "/static/media/seongyeomkim.6f7cf37aa78e2ac6c2f8.jpg",
     "static/media/intalk.jpg": "/static/media/intalk.923163f58ec5188cdf77.jpg",
     "index.html": "/index.html",
-    "main.f739d522.css.map": "/static/css/main.f739d522.css.map",
-    "main.759f8176.js.map": "/static/js/main.759f8176.js.map",
+    "main.866a2957.css.map": "/static/css/main.866a2957.css.map",
+    "main.e15ed7da.js.map": "/static/js/main.e15ed7da.js.map",
     "453.eccc9221.chunk.js.map": "/static/js/453.eccc9221.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f739d522.css",
-    "static/js/main.759f8176.js"
+    "static/css/main.866a2957.css",
+    "static/js/main.e15ed7da.js"
   ]
 }
