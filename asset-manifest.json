@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.866a2957.css",
-    "main.js": "/static/js/main.e15ed7da.js",
+    "main.js": "/static/js/main.0a8f38b8.js",
     "static/js/453.eccc9221.chunk.js": "/static/js/453.eccc9221.chunk.js",
     "static/media/LIGS.mp4": "/static/media/LIGS.e893dc8e15b57e92bf0c.mp4",
     "static/media/DS4_Imm.gif": "/static/media/DS4_Imm.934ff29674050493d0c4.gif",
@@ -47,6 +47,7 @@
     "static/media/ids2.png": "/static/media/ids2.c46b712f5d6cadca3b1e.png",
     "static/media/histochat-teaser.jpeg": "/static/media/histochat-teaser.34f1c8c670d90b3bdfdd.jpeg",
     "static/media/Lifegraphy-1.png": "/static/media/Lifegraphy-1.ad2a1faf3ef4e18cdb42.png",
+    "static/media/jeehunchoi.jpg": "/static/media/jeehunchoi.eb2a3f9ee801160003df.jpg",
     "static/media/ids3.png": "/static/media/ids3.340f4c330ae9a0a3f3b4.png",
     "static/media/dear_if.jpg": "/static/media/dear_if.1e40d72f20018b64f1dc.jpg",
     "static/media/grounded2.jpg": "/static/media/grounded2.ad878a51ea6499568152.jpg",
@@ -70,23 +71,31 @@
     "static/media/maehwasoo.png": "/static/media/maehwasoo.2621bd41563e6b3e1b42.png",
     "static/media/lifegraphy.jpg": "/static/media/lifegraphy.3443d66f7c4703d61c55.jpg",
     "static/media/iitp-crop.png": "/static/media/iitp-crop.073e5ca411780c062047.png",
+    "static/media/yoon.png": "/static/media/yoon.b59c51f74f5bfbe3ea9d.png",
     "static/media/joohyoungpark.jpeg": "/static/media/joohyoungpark.7d27ba54f86849da8674.jpeg",
     "static/media/donggunlee.png": "/static/media/donggunlee.3db38f8906c01c1ed267.png",
     "static/media/iitp1.png": "/static/media/iitp1.a2084b6177537b307e6a.png",
     "static/media/2025_6_11.jpeg": "/static/media/2025_6_11.d2f4de7628247b3710f3.jpeg",
+    "static/media/subincho.png": "/static/media/subincho.b04a987418c84185e4dc.png",
+    "static/media/seo.png": "/static/media/seo.269b93dcd7e885cd90fd.png",
+    "static/media/chaeyounghuh.png": "/static/media/chaeyounghuh.196c88bc8f8b080e1a5f.png",
     "static/media/yoonjaeoh.jpg": "/static/media/yoonjaeoh.a1b6f21fa1fde1d01a24.jpg",
+    "static/media/seunghobaek.png": "/static/media/seunghobaek.2833f96e7e9753d8a0b2.png",
     "static/media/c2e.jpg": "/static/media/c2e.7a422e349e31e4879ff1.jpg",
     "static/media/hyunseungmoon.jpg": "/static/media/hyunseungmoon.f4d00b8aba389c8e73c1.jpg",
+    "static/media/jaywoong.png": "/static/media/jaywoong.c79e4c7b71d9c3a7d67a.png",
+    "static/media/jwpark.png": "/static/media/jwpark.6eb6a957937b86b7d607.png",
     "static/media/hyunlee.jpeg": "/static/media/hyunlee.c51d79c9903b63b4c09a.jpeg",
+    "static/media/placeholder.png": "/static/media/placeholder.730692de2de3eaa0167c.png",
     "static/media/seongyeomkim.jpg": "/static/media/seongyeomkim.6f7cf37aa78e2ac6c2f8.jpg",
     "static/media/intalk.jpg": "/static/media/intalk.923163f58ec5188cdf77.jpg",
     "index.html": "/index.html",
     "main.866a2957.css.map": "/static/css/main.866a2957.css.map",
-    "main.e15ed7da.js.map": "/static/js/main.e15ed7da.js.map",
+    "main.0a8f38b8.js.map": "/static/js/main.0a8f38b8.js.map",
     "453.eccc9221.chunk.js.map": "/static/js/453.eccc9221.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.866a2957.css",
-    "static/js/main.e15ed7da.js"
+    "static/js/main.0a8f38b8.js"
   ]
 }
