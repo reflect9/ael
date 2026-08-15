@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7b8fedc4.css",
-    "main.js": "/static/js/main.745e5863.js",
+    "main.js": "/static/js/main.198701e4.js",
     "static/js/453.eccc9221.chunk.js": "/static/js/453.eccc9221.chunk.js",
     "static/media/LIGS.mp4": "/static/media/LIGS.e893dc8e15b57e92bf0c.mp4",
     "static/media/20260510_2.png": "/static/media/20260510_2.7c4b54475d8f53847819.png",
@@ -72,6 +72,7 @@
     "static/media/skulpt-bien-1.png": "/static/media/skulpt-bien-1.b3cc6c75ebf288202759.png",
     "static/media/HistoChat3.png": "/static/media/HistoChat3.a3c68cb342cc966a1a72.png",
     "static/media/foundgen-2026-poster.pdf": "/static/media/foundgen-2026-poster.8e6531cb0b8be317b494.pdf",
+    "static/media/jaeyoung_graduation.png": "/static/media/jaeyoung_graduation.d2d3d389ffbed0543b5f.png",
     "static/media/intalk1-en.png": "/static/media/intalk1-en.3f7c457f0e783af230e9.png",
     "static/media/Gaze2Prompt2.png": "/static/media/Gaze2Prompt2.c6d29869e8111227fa96.png",
     "static/media/skulpt-bien-4.png": "/static/media/skulpt-bien-4.5bf4205570bd2350c235.png",
@@ -114,9 +115,12 @@
     "static/media/ids.png": "/static/media/ids.30dc3be109166c383266.png",
     "static/media/minsunkim.jpg": "/static/media/minsunkim.fd22289d9965100bfde7.jpg",
     "static/media/ids1.jpg": "/static/media/ids1.540db23d22a4f4a5311f.jpg",
+    "static/media/pokebowl_2.jpg": "/static/media/pokebowl_2.914ec268f486ec41fee5.jpg",
     "static/media/20250211.jpg": "/static/media/20250211.d10d3e3b9190f13f5e47.jpg",
     "static/media/maehwasoo.png": "/static/media/maehwasoo.2621bd41563e6b3e1b42.png",
+    "static/media/pokebowl_1.jpg": "/static/media/pokebowl_1.2e930e8c9e56973e2102.jpg",
     "static/media/lifegraphy.jpg": "/static/media/lifegraphy.3443d66f7c4703d61c55.jpg",
+    "static/media/pokebowl_3.jpg": "/static/media/pokebowl_3.9b2a1cd5fbd42fa914d8.jpg",
     "static/media/id503-3.png": "/static/media/id503-3.423f92255779b1e8a40a.png",
     "static/media/iitp-crop.png": "/static/media/iitp-crop.073e5ca411780c062047.png",
     "static/media/yoon.png": "/static/media/yoon.d64398a659d6ad8cb8db.png",
@@ -163,11 +167,11 @@
     "static/media/intalk.jpg": "/static/media/intalk.923163f58ec5188cdf77.jpg",
     "index.html": "/index.html",
     "main.7b8fedc4.css.map": "/static/css/main.7b8fedc4.css.map",
-    "main.745e5863.js.map": "/static/js/main.745e5863.js.map",
+    "main.198701e4.js.map": "/static/js/main.198701e4.js.map",
     "453.eccc9221.chunk.js.map": "/static/js/453.eccc9221.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7b8fedc4.css",
-    "static/js/main.745e5863.js"
+    "static/js/main.198701e4.js"
   ]
 }
